@@ -20,11 +20,14 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="text-content">
-                    <h1>¡46% de descuento este Julio!</h1>
-                    <p className="paragraph"><strong>Como parte de nuestras promociones tenemos ofrecemos nuestras pizzas
-                            medianas a un 46% de descuento. Pregunta por nuestras promociones en nuestras tiendas
-                            participantes.<br /></strong></p>
-                    <p className="paragraph"><a href="/menu" className="link">¡Realiza tu pedido aquí!</a></p>
+                        <h1>¡46% de descuento este Julio!</h1>
+                        <p className="paragraph"><strong>Como parte de nuestras promociones tenemos ofrecemos nuestras pizzas
+                                medianas a un 46% de descuento. Pregunta por nuestras promociones en nuestras tiendas
+                                participantes.<br /></strong></p>
+                        <p className="paragraph"><a href="/menu" className="link">¡Realiza tu pedido aquí!</a></p> 
+                        <br></br>
+                        <h1>Busca nuestros cupones de descuento</h1>
+                        <p>Suscríbete al newletter para recibir actualizaciones y cupones</p>     
                 </div>
             </div>
         </section>

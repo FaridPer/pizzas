@@ -9,9 +9,9 @@ function header() {
         <div className="container-2 w-container">
             <Image src='/pizza-logo.jpg' width={0} height={0} alt='logo'
             className='brand w-nav-brand' sizes="100vw"></Image>
-            <div className="social-icons" id="iconos">
+          {/* <div className="social-icons" id="iconos">
               <a href="https://www.facebook.com/share/16GPxc3FCi/" target="_blank" ><FaFacebookF /></a>
-            </div>
+              </div> */} 
             <nav role="navigation" className="nav-menu">
                     <NavLinks/>
             </nav>
