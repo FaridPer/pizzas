@@ -1554,7 +1554,10 @@ a:visited{
   color:white;
 }
 
-
+.slide-container{
+  background: url('/loading.gif') center center no-repeat;
+  background-size: 50%;
+}
 .slider {
   height: 400px;
 }
