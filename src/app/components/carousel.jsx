@@ -61,21 +61,21 @@ const Carousel = () => {
                     </div>
                 ))}
             </div>
-                <div className="left-arrow arrow-style w-slider-arrow-left" onClick={prevSlide}>
-                <div className="w-icon-slider-left">
+                <div className="left-arrow arrow-style w-slider-arrow-left clickeable" onClick={prevSlide}>
+                <div className="w-icon-slider-left clickeable">
                     <FaArrowLeft/>
                 </div>
             </div>
-            <div className="left-arrow right-arrow w-slider-arrow-right" onClick={nextSlide}>
-                <div className="w-icon-slider-right">
+            <div className="left-arrow right-arrow w-slider-arrow-right clickeable" onClick={nextSlide}>
+                <div className="w-icon-slider-right clickeable">
                     <FaArrowRight/>
                 </div>
             </div>
-            <div className="w-slider-nav w-round w-num">
+            <div className="w-slider-nav w-round w-num clickeable">
                 {images.map((_, index) => (
                     <div
                         key={index}
-                        className={`w-slider-dot ${index === currentIndex ? 'active' : ''}`}
+                        className={`clickeable w-slider-dot ${index === currentIndex ? 'active' : ''}`}
                         onClick={() => setCurrentIndex(index)}
                     >{_.id}</div>
                 ))}
