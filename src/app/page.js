@@ -9,7 +9,7 @@ export default function Home() {
         </div>
         <section className="section">
             <div className="flex-block">
-                <div className="video-container">
+                <div className="video-container clickeable">
                     <div style={{paddingTop: "56.17021276595745%"}} className="w-video w-embed">
                         <iframe width="560" height="315" 
                         src="https://www.youtube.com/embed/ETpOK-Hsp60?controls=0&modestbranding=1&showinfo=0&rel=0"
