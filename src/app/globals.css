@@ -20,7 +20,7 @@ body {
   cursor: url(/cursor.png),auto;
 }
 
-a, button, .clickeable {
+a, button, .clickeable, svg {
   cursor: url(/mano.png), pointer;
 }
 .tel{
