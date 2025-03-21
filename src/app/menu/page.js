@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Menu = [
   {name:'Pizza de Pepperoni',img:'/pizza-peperoni.jpg', description:'Mediana $50 <br> Grande  $90 <br>Familiar $165'},
   {name:'Pizza Mexicana',img:'/pizza-mexicana.png', description:'Mediana $50 <br> Grande  $90 <br>Familiar $165'},
-  {name:'Pizza de Atún',img:'/pizza-atun.jpg', description:'Mediana $50 <br> Grande  $90 <br>Familiar $165'},
+  {name:'Pizza de Queso',img:'/pizza-queso.jpg', description:'Mediana $50 <br> Grande  $90 <br>Familiar $165'},
   {name:'Pizza Vegetariana',img:'/pizza-vegetariana.jpg', description:'Mediana $50 <br> Grande  $90 <br>Familiar $165'},
   {name:'Pizza de Champiñones',img:'/pizza-champis.jpg', description:'Mediana $50 <br> Grande  $90 <br>Familiar $165'},
   {name:'Pizza Margarita',img:'/pizza-margarita.jpg', description:'Mediana $50 <br> Grande  $90 <br>Familiar $165'},
