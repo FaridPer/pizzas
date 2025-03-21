@@ -1,12 +1,14 @@
 import React from 'react'
 import NavLinks from './links'
 import Image from 'next/image'
-import { FaFacebookF } from 'react-icons/fa'
+import { FaFacebookF,FaPhoneAlt } from 'react-icons/fa'
 
 function header() {
   return (
     <div  className="navbar w-nav">
+        
         <div className="container-2 w-container">
+          <h4 className='tel'><FaPhoneAlt/>  (123) 456-7890</h4>
             <Image src='/pizza-logo.jpg' width={0} height={0} alt='logo'
             className='brand w-nav-brand' sizes="100vw"></Image>
           {/* <div className="social-icons" id="iconos">

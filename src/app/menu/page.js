@@ -1,7 +1,6 @@
 import React from 'react'
 import './menu.css'
 import Image from 'next/image';
-import { Suspense } from 'react';
 
 const Menu = [
   {name:'Pizza de Pepperoni',img:'/pizza-peperoni.jpg', description:'Mediana $50 <br> Grande  $90 <br>Familiar $165'},

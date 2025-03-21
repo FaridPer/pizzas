@@ -23,6 +23,15 @@ body {
 a, button, .clickeable {
   cursor: url(/mano.png), pointer;
 }
+.tel{
+  position: absolute;
+  left: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
 
 a{
   color: #000;
@@ -1573,7 +1582,7 @@ a:visited{
 
 .slide-container{
   background: url('/load-banner2.gif') center center no-repeat;
-  background-size: 50%;
+  background-size: 20%;
 }
 .slider {
   height: 400px;
